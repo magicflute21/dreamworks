@@ -1,0 +1,74 @@
+.rellax {
+    width: 98.7vw;
+    height: 500vh;
+    background: linear-gradient(180deg, rgb(180, 204, 255), rgb(255, 255, 255));
+    overflow: auto;
+    position: relative;
+
+    .dreamworks {
+        font-size: 130px;
+        font-family: 'dreamworks', sans-serif;
+        text-align: center;
+        letter-spacing: .7;
+        color: white;
+        opacity: .4;
+        margin-top: 38rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        position: absolute;
+        width: 90%;
+        margin: 0 auto;
+        top: 10rem;
+
+        .item1 {
+            margin-top: 90rem;
+
+            img{
+                width: 100%;
+            }
+        }
+        .item2 {
+            img{
+                width: 100%;
+            }
+        }
+        .item3 {
+            margin-top: 34rem;
+
+            img{
+                width: 250%;                
+            }
+        }
+        .item4 {
+            margin-top: 39rem;
+            // background-color: turquoise;
+
+            img{
+                width: 100%;    
+                margin-left: 10rem;
+
+            }
+        }
+        .item5 {
+            // -webkit-transform: scaleX(-1);
+            // transform: scaleX(-1);
+            margin-top: 10rem;
+
+
+            img{
+                width: 150%;                
+            }
+        }
+        .item6 {
+            margin-top: 9rem;
+            margin-left: -2rem;
+
+            img{
+                width: 60%;                
+            }
+        }
+    }
+}
