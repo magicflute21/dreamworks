@@ -1,18 +1,17 @@
 .rellax {
-    width: 98.7vw;
-    height: 500vh;
-    background: linear-gradient(180deg, rgb(180, 204, 255), rgb(255, 255, 255));
+    width: 100%;
+    height: 1100vh;
+    background: linear-gradient(180deg, rgb(137, 174, 255) 0%, rgb(255, 255, 255) 30%, rgb(241, 198, 210)60%,  rgb(247, 171, 100)80%, rgb(197, 62, 8) 100%);
     overflow: auto;
     position: relative;
 
     .dreamworks {
         font-size: 180px;
-        font-family: 'dreamworks', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
-        letter-spacing: .7;
-        color: white;
-        opacity: .4;
-        margin-top: 36rem;
+        color: rgb(232, 248, 255);
+        opacity: .3;
+        margin-top: 29rem;
     }
 
     .grid {
@@ -21,13 +20,13 @@
         position: absolute;
         width: 90%;
         margin: 0 auto;
-        top: 10rem;
+        top: 8rem;
 
         .item1 {
             margin-top: 90rem;
 
             img{
-                width: 100%;
+                width: 120%;
             }
         }
         .item2 {
@@ -36,29 +35,26 @@
             }
         }
         .item3 {
-            margin-top: 32rem;
+            margin-top: 29rem;
 
             img{
                 width: 250%;                
             }
         }
         .item4 {
-            margin-top: 37rem;
+            margin-top: 35rem;
 
             img{
-                width: 100%;    
+                width: 120%;    
                 margin-left: 10rem;
 
             }
         }
         .item5 {
-            // -webkit-transform: scaleX(-1);
-            // transform: scaleX(-1);
             margin-top: 10rem;
 
-
             img{
-                width: 150%;                
+                width: 170%;                
             }
         }
         .item6 {
@@ -68,6 +64,19 @@
             img{
                 width: 60%;                
             }
+        }
+    }
+    .text {
+        width: 65rem;
+        margin: 120rem auto 0;
+        color: rgb(127, 199, 192);
+
+        p {
+            font-size: 50px;
+            font-family: 'Exo', sans-serif;
+            line-height: 1.8;
+            text-align: center;
+            margin-bottom: 13rem;
         }
     }
 }
